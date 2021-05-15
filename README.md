@@ -1,2 +1,2 @@
-# CodeSandbox_ProuctDetail
+# CodeSandbox_ProductDetail
 Created with CodeSandbox
