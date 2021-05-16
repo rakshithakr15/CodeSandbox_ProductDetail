@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+.flex-item {
+    width: 100%;
+    max-height: 12.5rem;
+    transition: transform 450ms;
+    padding: 0.5rem;
+    flex: 50%;
+}
+
+.flex-item:hover {
+    transform: scale(1.08);
+}
+
+.flex-container {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin: 0 auto;
+    flex-direction: row;
+}
+
+.title {
+    font-size: 1rem;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (max-width: 800px) {
+    .flex-container {
+        flex-direction: column;
+    }
+}
